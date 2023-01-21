@@ -17,7 +17,7 @@ Throws: InvalidTicketTypeException if the ticket type is invalid.
 `purchaseTickets(accountId: number, total: number)`
 Purchases the tickets in the user's cart and reserves seats for them.
 
-`accountId` The ID of the account making the purchase.
+`accountId` The ID of the account making the purchase.<br/>
 `total` The total cost of the tickets in the cart.
 Returns: true if the purchase is successful, false otherwise.
 Throws: InvalidAccountIdException if the account ID is invalid.
