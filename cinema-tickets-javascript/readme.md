@@ -32,7 +32,7 @@ Returns: true if the seat reservation is successful, false otherwise.<br/>
 Throws: InvalidSeatReservationException if the seat reservation fails.
 
 # Instructions on how to use
-This imlementation includes assertion library `chai` and framework `mocha`. There are test cases for objectives, business rules, constraints and assumptions. Run the following command to setup and execute tests respectively.
+This imlementation includes assertion library `chai` and testing framework `mocha`. There are test cases for objectives, business rules, constraints and assumptions. Run the following command to setup and execute tests respectively.
 
 ```
 git pull https://github.com/demoric102/cinema-tickets.git
