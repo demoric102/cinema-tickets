@@ -3,7 +3,7 @@
 The TicketService class is responsible for managing the purchase and reservation of tickets for a cinema. It allows users to add tickets to their cart, purchase them, and reserve seats for the purchased tickets. The class also includes various validation checks to ensure that the tickets being added and purchased are valid.
 
 ### Properties
-`tickets` An array of Ticket objects representing the tickets in the user's cart.
+`tickets` An array of Ticket objects representing the tickets in the user's cart.<br/>
 `total` The total cost of the tickets in the user's cart.
 
 ### Methods
