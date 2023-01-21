@@ -16,8 +16,10 @@ export default class TicketTypeRequest {
       throw new TypeError('noOfTickets must be an integer');
     }
 
-    this.#type = type;
-    this.#noOfTickets = noOfTickets;
+    //make this variable public to aid testing
+    //this could be done better if I had more time
+    this.type = type;
+    this.noOfTickets = noOfTickets;
   }
 
   getNoOfTickets() {
