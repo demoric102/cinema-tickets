@@ -26,7 +26,7 @@ Throws: InvalidPurchaseException if the total amount is incorrect.
 `reserveSeat(accountId: number, tickets: Array<Ticket>)`
 Reserves seats for the purchased tickets.
 
-`accountId` The ID of the account making the purchase.
+`accountId` The ID of the account making the purchase.<br/>
 `tickets` An array of Ticket objects representing the tickets for which seats are being reserved.<br/>
 Returns: true if the seat reservation is successful, false otherwise.<br/>
 Throws: InvalidSeatReservationException if the seat reservation fails.
