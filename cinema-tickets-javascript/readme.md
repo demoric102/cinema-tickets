@@ -36,7 +36,7 @@ This imlementation includes assertion library `chai` and framework `mocha`. Ther
 
 ```
 git pull <this-repo>
-cd in `cinema-tickets-javascript`
+cd in cinema-tickets-javascript
 npm install
 npx mocha
 ```
