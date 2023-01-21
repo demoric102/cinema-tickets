@@ -35,7 +35,7 @@ Throws: InvalidSeatReservationException if the seat reservation fails.
 This imlementation includes assertion library `chai` and framework `mocha`. There are test cases for objectives, business rules, constraints and assumptions. Run the following command to setup and execute tests respectively.
 
 ```
-git pull <this-repo>
+git pull https://github.com/demoric102/cinema-tickets.git
 cd into /cinema-tickets-javascript
 npm install
 npx mocha
